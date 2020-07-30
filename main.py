@@ -75,4 +75,4 @@ if __name__ == "__main__":
                    decrypt(re.match(decryption_pattern, out_string).group(1), re.match(decryption_pattern, out_string).group(2)))
     else:  # Decryption
         file.write("Original file:\n" + file_content + "\n\nDecrypted content:\n" + out_string)
-    print("Done successfuly!")
+    print("Project completed successfuly!")
